@@ -1,0 +1,74 @@
+
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module investigator</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>investigator</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/pekka/omat_projektit/horror/horror/src/investigator.py">/home/pekka/omat_projektit/horror/horror/src/investigator.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="investigator.html#investigator">investigator</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="investigator">class <strong>investigator</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>class&nbsp;modeling&nbsp;an&nbsp;<a href="#investigator">investigator</a><br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="investigator-__init__"><strong>__init__</strong></a>(self, name<font color="#909090">=''</font>)</dt></dl>
+
+<dl><dt><a name="investigator-incrementFight"><strong>incrementFight</strong></a>(self)</dt><dd><tt>Increments&nbsp;fight&nbsp;by&nbsp;one&nbsp;step&nbsp;and&nbsp;decrements&nbsp;will&nbsp;by<br>
+one&nbsp;step&nbsp;and&nbsp;lowers&nbsp;focus&nbsp;by&nbsp;one.&nbsp;Does&nbsp;not&nbsp;raise&nbsp;fight&nbsp;over&nbsp;maximum&nbsp;or&nbsp;<br>
+lower&nbsp;will&nbsp;below&nbsp;minimum.</tt></dd></dl>
+
+<dl><dt><a name="investigator-incrementLore"><strong>incrementLore</strong></a>(self)</dt><dd><tt>Increments&nbsp;lore&nbsp;by&nbsp;one&nbsp;step&nbsp;and&nbsp;decrements&nbsp;luck&nbsp;by<br>
+one&nbsp;step&nbsp;and&nbsp;lowers&nbsp;focus&nbsp;by&nbsp;one.&nbsp;Does&nbsp;not&nbsp;raise&nbsp;lore&nbsp;over&nbsp;maximum&nbsp;or&nbsp;<br>
+lower&nbsp;luck&nbsp;below&nbsp;minimum.</tt></dd></dl>
+
+<dl><dt><a name="investigator-incrementLuck"><strong>incrementLuck</strong></a>(self)</dt><dd><tt>Increments&nbsp;luck&nbsp;by&nbsp;one&nbsp;step&nbsp;and&nbsp;decrements&nbsp;lore&nbsp;by<br>
+one&nbsp;step&nbsp;and&nbsp;lowers&nbsp;focus&nbsp;by&nbsp;one.&nbsp;Does&nbsp;not&nbsp;raise&nbsp;luck&nbsp;over&nbsp;maximum&nbsp;or&nbsp;<br>
+lower&nbsp;lore&nbsp;below&nbsp;minimum.</tt></dd></dl>
+
+<dl><dt><a name="investigator-incrementSneak"><strong>incrementSneak</strong></a>(self)</dt><dd><tt>Increments&nbsp;sneak&nbsp;by&nbsp;one&nbsp;step&nbsp;and&nbsp;decrements&nbsp;speed&nbsp;by<br>
+one&nbsp;step&nbsp;and&nbsp;lowers&nbsp;focus&nbsp;by&nbsp;one.&nbsp;Does&nbsp;not&nbsp;raise&nbsp;sneak&nbsp;over&nbsp;maximum&nbsp;or&nbsp;<br>
+lower&nbsp;speed&nbsp;below&nbsp;minimum.</tt></dd></dl>
+
+<dl><dt><a name="investigator-incrementSpeed"><strong>incrementSpeed</strong></a>(self)</dt><dd><tt>Increments&nbsp;speed&nbsp;by&nbsp;one&nbsp;step&nbsp;and&nbsp;decrements&nbsp;sneak&nbsp;by<br>
+one&nbsp;step&nbsp;and&nbsp;lowers&nbsp;focus&nbsp;by&nbsp;one.&nbsp;Does&nbsp;not&nbsp;raise&nbsp;speed&nbsp;over&nbsp;maximum&nbsp;or&nbsp;<br>
+lower&nbsp;sneak&nbsp;below&nbsp;minimum.</tt></dd></dl>
+
+<dl><dt><a name="investigator-incrementWill"><strong>incrementWill</strong></a>(self)</dt><dd><tt>Increments&nbsp;will&nbsp;by&nbsp;one&nbsp;step&nbsp;and&nbsp;decrements&nbsp;fight&nbsp;by<br>
+one&nbsp;step&nbsp;and&nbsp;lowers&nbsp;focus&nbsp;by&nbsp;one.&nbsp;Does&nbsp;not&nbsp;raise&nbsp;will&nbsp;over&nbsp;maximum&nbsp;or&nbsp;<br>
+lower&nbsp;fight&nbsp;below&nbsp;minimum.</tt></dd></dl>
+
+<dl><dt><a name="investigator-isConscious"><strong>isConscious</strong></a>(self)</dt><dd><tt>Returns&nbsp;true&nbsp;if&nbsp;<a href="#investigator">investigator</a>'s&nbsp;current&nbsp;stamina&nbsp;is&nbsp;<br>
+above&nbsp;zero,&nbsp;false&nbsp;otherwise.</tt></dd></dl>
+
+<dl><dt><a name="investigator-isSane"><strong>isSane</strong></a>(self)</dt><dd><tt>Returns&nbsp;true&nbsp;if&nbsp;<a href="#investigator">investigator</a>'s&nbsp;current&nbsp;sanity&nbsp;is&nbsp;<br>
+above&nbsp;zero,&nbsp;false&nbsp;otherwise.</tt></dd></dl>
+
+<dl><dt><a name="investigator-modifySanity"><strong>modifySanity</strong></a>(self, amount)</dt><dd><tt>Adds&nbsp;&lt;amount&gt;&nbsp;to&nbsp;<a href="#investigator">investigator</a>'s&nbsp;sanity.&nbsp;Does&nbsp;not<br>
+raise&nbsp;the&nbsp;sanity&nbsp;above&nbsp;current&nbsp;maximum&nbsp;sanity.</tt></dd></dl>
+
+<dl><dt><a name="investigator-modifyStamina"><strong>modifyStamina</strong></a>(self, amount)</dt><dd><tt>Adds&nbsp;&lt;amount&gt;&nbsp;to&nbsp;<a href="#investigator">investigator</a>'s&nbsp;stamina.&nbsp;Does&nbsp;not<br>
+raise&nbsp;the&nbsp;stamina&nbsp;above&nbsp;current&nbsp;maximum&nbsp;stamina.</tt></dd></dl>
+
+<dl><dt><a name="investigator-toString"><strong>toString</strong></a>(self)</dt></dl>
+
+</td></tr></table></td></tr></table>
+</body></html>
